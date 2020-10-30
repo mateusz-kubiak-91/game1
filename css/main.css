@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px 10px 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 10px;
+    line-height: 60px;
+    font-style: oblique;
+}
+
+.choseBtn {
+    margin: 10px 10px auto;
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border-color: dimgrey;
+}
+
+.rockBten {
+    background-color: rgb(156, 161, 153);
+}
+
+.paperBtn {
+    background-color: rgb(219, 230, 228);
+}
+
+.scissorsBtn {
+    background-color: rgb(175, 146, 192);
+}
+
+.lizardBtn {
+    background-color: rgb(104, 197, 46);
+}
+
+.spockBtn {
+    background-color: rgb(202, 27, 27);
+}
+
+.hide {
+    display: none;
+}
