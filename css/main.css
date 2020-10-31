@@ -54,3 +54,7 @@ h4 {
 .hide {
     display: none;
 }
+
+.active {
+    border: 5px solid gold;
+}
