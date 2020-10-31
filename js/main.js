@@ -1,3 +1,11 @@
+const choices = {
+    0: 'rock',
+    1: 'paper',
+    2: 'scrissors',
+    3: 'lizard',
+    4: 'spock'
+};
+
 const rockBtn = document.querySelector('.rockBtn');
 const paperBtn = document.querySelector('.paperBtn');
 const scissorsBtn = document.querySelector('.scissorsBtn');
@@ -43,3 +51,19 @@ spockBtn.addEventListener('click', () => {
     lizardBtn.classList.remove('active');
     spockBtn.classList.add('active');
 })
+
+function computerChoice() {
+    const randNum = Math.floor(Math.random() * Object.keys(choices).length);
+    const compChoiceDiv = document.createElement('div');
+    compChoiceDiv.innerText = `Computer choice: ${choices[randNum]}`
+    // TODO: Player choice VS Computer Choice (icons)
+}
+
+function comparision(playerChoice, cmpChoice) {
+    if (playerChoice == cmpChoice) {
+        console.log('Remis')
+    } else if (playerChoice == 0 && cmpChoice == 1) {
+        // ...
+        // build next positions
+    }
+}
