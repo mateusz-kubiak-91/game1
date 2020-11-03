@@ -92,3 +92,16 @@ function compare(playerChoice) {
 
     result.innerHTML += resultText
 }
+
+// button rules
+const btnRules = document.querySelector('.btnRules');
+
+btnRules.addEventListener('click', () => {
+    let imgRules = document.querySelector('.imgRules');
+
+    if (imgRules.style.display === 'none' || !imgRules.style.display) {
+        imgRules.style.display = 'block';
+    } else {
+        imgRules.style.display = 'none';
+    }
+});

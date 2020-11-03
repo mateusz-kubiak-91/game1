@@ -62,3 +62,22 @@ h4 {
 .result {
     color: #000000
 }
+
+.btnRules {
+    margin: 30px;
+    padding: 15px;
+    font-size: 36px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.btnRules:hover {
+    background-color: aliceblue;
+}
+
+.imgRules {
+    display: none;
+    margin: auto;
+    width: 450px;
+}
