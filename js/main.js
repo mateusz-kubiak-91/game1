@@ -57,7 +57,6 @@ spockBtn.addEventListener('click', () => {
     compare(4)
 });
 
-
 function compare(playerChoice) {
     const computerChoice = Math.floor(Math.random() * Object.keys(choices).length);
     const playerChoiceName = choices[playerChoice];
@@ -66,7 +65,7 @@ function compare(playerChoice) {
     let resultText = 'Player win';
 
     result.classList.remove('hide');
-    result.innerHTML = `Computer choice: ${computerChoiceName}<br>`;
+    result.innerHTML = `<br>Computer choice: ${computerChoiceName}<br>`;
     result.innerHTML += `Player choice: ${playerChoiceName}<br>`;
 
     if (playerChoice == computerChoice) {

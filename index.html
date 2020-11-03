@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/edc645413f.js" crossorigin="anonymous"></script>
     <title>game1</title>
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <h1>rock paper scissors lizard spock <br>game!!!</h1>
-    <h4 class="aa"> we will see if you win with us...</h4>
-    <h4 class="aa">Just pick your option: </h4>
-    <div class="aa">
+    <h5> we will see if you win with us...</h5>
+    <a href="img/rules.png" class="rules" data-lightbox="image-1" data-title="Rules"
+        data-alt="Rules how to play in 'rock paper scissors lizard spock'">Rules</a>
+    <h5>Just pick your option: </h5>
+    <div>
         <button class="choseBtn rockBtn"><i class="far fa-hand-rock"></i></button>
         <button class="choseBtn paperBtn"><i class="far fa-hand-paper"></i></button>
         <button class="choseBtn scissorsBtn"><i class="far fa-hand-scissors"></i></button>
@@ -23,6 +26,7 @@
     <div class="result hide"></div>
 
     <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
